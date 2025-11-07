@@ -1,16 +1,38 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Klasifikasi Penyakit Mata Katarak Berdasarkan Citra Retina Menggunakan PCA Dan K-NN Berbasis Web
 
-Currently, two official plugins are available:
+# Deskripsi : 
+- Proyek ini mengimplementasikan sistem klasifikasi penyakit mata katarak berbasis web yang menggunakan citra retina (fundus) sebagai input. Fitur inti menggunakan Principal Component Analysis (PCA) untuk ekstraksi/reduksi fitur dan K-Nearest Neighbors (K-NN) sebagai algoritma klasifikasi. Aplikasi ini menyediakan antarmuka web sederhana untuk mengunggah citra retina, menampilkan hasil preprocessing, dan menampilkan prediksi apakah citra menunjukkan tanda katarak atau tidak.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Fitur : 
+- Unggah citra retina melalui antarmuka web.
+- Tekan Button Untuk Prediksi Katarak
+- Model Melakukan Proses
+- Output / Hasil :  Mata normal / Katarak dan nilai Confidence
 
-## React Compiler
+# Teknologi : 
+- Backend : Menggunakan Python (Flask)
+- Frontend : Menggunakan Javascript (React JS) dan CSS
+- Deployment : Menggunakan Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Dataset : 
+- https://www.kaggle.com/datasets/nandanp6/cataract-image-dataset
 
-## Expanding the ESLint configuration
+# Cara Instal Dan Gunakan Di localhost :
+- git clone https://github.com/DeteksiKatarak/Frontend.git
+- New Terminal Pada vscode anda
+- cd Website_CekKatarak / Projek_Katarak
+- cd Frontend
+- ketik npm install
+- setelah itu ketik "npm run dev" Untuk menjalankan react js di localhost
+- maka akan mendapatkan link " http://localhost:5173/"
+- buka browser untuk melihat tampilan dari web nya
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Link akses online
+- https://deteksi-katarak-astra.vercel.app
+
+
+# Diagram Flowchart
+![Flowchart](flowchart_Katarak.png)
